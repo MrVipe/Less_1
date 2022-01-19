@@ -12,6 +12,7 @@ namespace Less_1
         {
             Console.WriteLine("Ваше имя?");
             string Isname = Console.ReadLine();
+            Console.WriteLine("Привет, " + Isname + ", сегодня " + DateTime.Now);
         }
     }
 }
